@@ -136,6 +136,15 @@ public class ExpressionsTest {
         boolean actual = e.returnOr(input1, input2);
         Assert.assertEquals(expected, actual);
     }
+    
+     @Test
+    public void returnOrTest4(){
+        boolean input1 = false;
+        boolean input2 = false;
+        boolean expected = false;
+        boolean actual = e.returnOr(input1, input2);
+        Assert.assertEquals(expected, actual);
+    }
 
 
 }
